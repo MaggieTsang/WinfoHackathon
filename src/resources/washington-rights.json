@@ -24,10 +24,16 @@
           "Your employer cannot make policies that negatively affect the members of one gender unless they can prove that the policy is necessary for the business to operate."
         ]
       }
+    ],
+    "solutions": [
+      "Address the issue with your employer through internal policies and procedures.",
+      "File a complaint with the Washington State Human Rights Commission.",
+      "File a complaint with the federal U.S. Equal Employment Opportunity Commission (EEOC). The EEOC calls a complaint a “Charge of Discrimination.” Importantly, you must file a Charge of Discrimination within 180 days of the last discriminatory act. A Charge of Discrimination can be filed on behalf of another person if needed to protect the identity of the employee who is complaining"
     ]
   },
   {
     "type": "housing",
+    "info": "You have a right to be free from discrimination in housing transactions, including renting, leasing, purchasing and obtaining financing for land or housing. Washington law prohibits discrimination by landlords, real estate agents, sellers, mortgage brokers, or other individuals involved in real estate transactions." ,
     "rights": [
       {
         "type": "adversiting",
@@ -42,6 +48,49 @@
           "When real estate is for sale or rent, everyone should be offered the same terms whether or not they belong to a protected class. This means that the availability, price and other details of a sale or rental should not depend on factors like race, national origin, religion, or sex."
         ]
       }
+    ],
+    "solutions": [
+      "File a complaint with the Washington State Human Rights Commission.",
+      "File a complaint with the federal U.S. Department of Urban Development (HUD). HUD is the federal agency responsible for enforcing federal fair housing laws. You must file a complaint within one year of the discriminatory conduct you are complaining about."
+    ]
+  },
+  {
+    "type": "voting",
+    "info": "Voting is a fundamental right of citizenship. Washington state encourages every eligible person to register to vote and to participate in all elections. Washington is also committed to preventing discrimination and fraud related to voting. The purpose of this chapter is to provide you with information about how to register to vote and how to report fraud and discrimination related to voting. To vote, you must be at least 18 years of age at the time of the next election, be a US citizen, a resident of the state, county, and precinct where you are registering for at least 30 days before the next election, and not be disqualified from voting.",
+    "rights": [
+      {
+        "type": "disabilities",
+        "rights": [
+          "Voters with disabilities have the option of voting in person at an Accessible Voting Unit (also called a Disability Access Unit). Accessible Voting Units are wheelchair-accessible, have headphones to allow voters with vision impairments to listen to the ballot, and have touch screens and other tools to allow voters to select candidates."
+        ]
+      }
+    ],
+    "solutions":[
+      "Notify the Secretary of State. The Secretary of State is the chief election officer for all federal, state and local elections in Washington. The Secretary of State works to ensure orderly, timely, and uniform elections in compliance with federal and state law.",
+      "File a complaint with the U.S. Department of Justice. The Civil Rights Division at the U.S. Department of Justice has a Voting Section, which enforces federal laws that protect the right to vote."
+    ]
+  },
+  {
+    "type": "education",
+    "info": "You have a right to be free from discrimination in the classroom, whether you are in elementary school or a college student. This section covers civil rights laws governing primary and secondary education, as well as higher education. State and federal civil rights laws protect all people—including students, parents, and others— from discrimination in Washington public schools. The Office of the Superintendent of Public Instruction (OSPI) is the primary agency responsible for enforcing civil rights laws in Washington’s K-12 education system.",
+    "rights": [
+      {
+        "type": "bullying",
+        "rights": [
+          "If harassment or bullying is motivated by membership in a protected class, your local school district’s discrimination policies and procedures apply. Check with your district to find out about options for resolving your issue."
+        ]
+      },
+      {
+        "type": "pregnancy",
+        "rights":[
+          "Schools are prohibited from discriminating on the basis of pregnancy, parenting, and all related conditions, including abortion. This means that schools must give all students who are, might be, or have been pregnant the same access to school programs and educational opportunities as other students.",
+          "You cannot be required to drop a class or change your education plans because of your pregnancy."
+        ]
+      }
+    ],
+    "solutions":[
+      "Contact the school district’s Civil Rights Compliance Coordinator. This is the district employee who is responsible for ensuring that your school district complies with nondiscrimination laws and regulations.",
+      "File a complaint with the school district. You may file a discrimination complaint with the school district at any time. This process starts with a written and signed complaint letter to the school district. Once the district receives a complaint, they must investigate and respond to you within 30 calendar days."
     ]
   }
 ]
