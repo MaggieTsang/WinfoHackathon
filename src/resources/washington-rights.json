@@ -1,0 +1,47 @@
+[
+  {
+    "type": "employment",
+    "info": "You have a right to not be discriminated against in the workplace. Employment discrimination is prohibited by federal law, state law and many local laws. Each law is a little different, and some laws may apply to your situation, while others may not. For example, some employers may be subject to different rules based on the employer’s size, religious affiliation or the type of business it runs.",
+    "rights": [
+      {
+        "type": "religious",
+        "rights": [
+          "Title VII of the Civil Rights Act of 1964 and the Washington Law Against Discrimination prohibit discrimination and harassment based on your religious beliefs. Harassment can include offensive comments about your religious beliefs or practices,including religious attire, which create a negative environment where it is difficult to do your job."
+        ]
+      },
+      {
+        "type": "workplace",
+        "rights": [
+          "Under Title VII of the Civil Rights Act and the Washington Law Against Discrimination, employers may not discriminate on the basis of race, color, or national origin.", 
+          "Your employer cannot refuse to hire you, pay you less, cut your hours or otherwise unfavorably alter your working conditions on the basis of your race, color, or national origin.",
+          "Your employer also cannot establish policies that have a disproportionately negative effect on workers of a particular race, color, or national origin unless the employer can prove that the policy is necessary for the business to operate."
+        ]
+      },
+      {
+        "type": "sex",
+        "rights": [
+          "Under the law, pregnancy is included as a part of gender, which means that your employer may not discriminate against you because you are pregnant or may decide to have a baby.",
+          "Your employer cannot make policies that negatively affect the members of one gender unless they can prove that the policy is necessary for the business to operate."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "housing",
+    "rights": [
+      {
+        "type": "adversiting",
+        "rights": [
+          "Landlords, real estate agents, sellers, mortgage brokers, or other individuals involved in real estate transactions may not discriminate based on race, color, national origin, creed (religion), sex or gender, marital status, sexual orientation, mental or physical disability, use of a trained dog guide, honorably discharged veteran or military status, or families with children status (having a child under 18 in the home).",
+          "For example, a sign outside an apartment complex that advertises, “Apartment available, mature professionals only - No children” would be prohibited as discriminating based on families with children status unless the property qualifies as senior housing."
+        ]
+      },
+      {
+        "type": "sales",
+        "rights": [
+          "When real estate is for sale or rent, everyone should be offered the same terms whether or not they belong to a protected class. This means that the availability, price and other details of a sale or rental should not depend on factors like race, national origin, religion, or sex."
+        ]
+      }
+    ]
+  }
+]
