@@ -1,4 +1,4 @@
-import {React, Component} from "react";
+import React, { Component } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 export default class DropdownSelection extends Component {
@@ -11,17 +11,23 @@ export default class DropdownSelection extends Component {
     };
   }
 
+  toggle = () => {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
   render() {
     let items = this.props.items.map((item) => {
-      return <DropdownItem key={item}>item</DropdownItem>
+      return <DropdownItem key={item}>{item}</DropdownItem>
     });
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
         <DropdownToggle caret>
-          this.props.title
+          {this.props.title}
       </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem>{items}</DropdownItem>
+          {items}
         </DropdownMenu>
       </Dropdown>
     )

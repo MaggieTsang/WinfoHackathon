@@ -6,20 +6,6 @@ import DropdownSelection from './Dropdowns/DropdownSelection'
 
 
 export default class Homepage extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      dropdownOpen: false
-    };
-  }
-
-  toggle() {
-    this.setState(prevState => ({
-      dropdownOpen: !prevState.dropdownOpen
-    }));
-  }
 
   render() {
     return (
