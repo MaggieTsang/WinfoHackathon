@@ -1,11 +1,11 @@
-import React from "react";
-import { FormGroup, Label, Button, Input, Jumbotron, Container, Row, Col, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import React, { Component } from "react";
+import { FormGroup, Label, Button, Input, Jumbotron, Container, Row, Col } from 'reactstrap';
 
-import DropdownSelection from './Dropdowns/DropdownSelection'
+import DropdownSelection from '../Controls/DropdownSelection'
 
 
 
-export default class Homepage extends React.Component {
+export default class Homepage extends Component {
 
   render() {
     return (
@@ -25,19 +25,19 @@ export default class Homepage extends React.Component {
           <Container>
             <Row>
               <Col sm="4">
-                <DropdownSelection title='Location' items={['Washington']}/>
+                <DropdownSelection title='Location' items={['Washington']} />
               </Col>
               <Col sm="4">
-                  <DropdownSelection title='Age Range' items={['0 - 14', '15 - 18', '18 - 21', '21+']}/>
-                </Col>
-                <Col sm="4">
-                  <DropdownSelection title='Status' items={['US Citizen', 'Visa', 'Green Card']}/>
-                </Col>
+                <DropdownSelection title='Age Range' items={['0 - 14', '15 - 18', '18 - 21', '21+']} />
+              </Col>
+              <Col sm="4">
+                <DropdownSelection title='Status' items={['US Citizen', 'Visa', 'Green Card']} />
+              </Col>
             </Row>
 
 
 
-              {/* <FormGroup check>
+            {/* <FormGroup check>
                 <Label check>
                   <Input type="checkbox" />{' '}
                   Check me out
@@ -45,12 +45,12 @@ export default class Homepage extends React.Component {
               </FormGroup> */}
 
 
-              <Button>Submit</Button>
+            <Button>Submit</Button>
 
           </Container>
 
         </main>
       </div>
-        );
-      }
+    );
+  }
 }

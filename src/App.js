@@ -4,7 +4,7 @@ import {ROUTES} from "./constants";
 
 //import logo from './logo.svg';
 import './App.css';
-import Homepage from './Homepage';
+import Homepage from './Views/Homepage';
 
 class App extends Component {
   render() {
