@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {HashRouter as Router, Switch, Redirect, Route} from "react-router-dom";
+import {ROUTES} from "./constants";
+
+//import logo from './logo.svg';
 import './App.css';
+import Homepage from './Homepage';
 
 class App extends Component {
   render() {
     return (
+      <Router>
+        <Switch>
+            <Route exact path={ROUTES.homepage} component={Homepage}/>
+            <Redirect to={ROUTES.homepage}/>
+        </Switch>
+     </Router>
+      /*
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +32,7 @@ class App extends Component {
           </a>
         </header>
       </div>
+      */
     );
   }
 }
