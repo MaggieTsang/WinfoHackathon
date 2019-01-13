@@ -5,14 +5,18 @@ import {ROUTES} from "./constants";
 //import logo from './logo.svg';
 import './App.css';
 import Homepage from './Views/Homepage';
+import SelectionResults from './Views/SelectionResults';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <Switch>
-            <Route exact path={ROUTES.homepage} component={Homepage}/>
-            <Redirect to={ROUTES.homepage}/>
+            {/* <Route exact path={ROUTES.homepage} component={Homepage}/> */}
+            <Route exact path={ROUTES.results} component={SelectionResults}/>
+            <Redirect to={ROUTES.results}/>
+
+            {/* <Redirect to={ROUTES.homepage}/> */}
         </Switch>
      </Router>
       /*
