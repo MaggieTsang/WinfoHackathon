@@ -1,11 +1,26 @@
 import React, { Component } from "react";
-import { FormGroup, Label, Button, Input, Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Button, Card, CardTitle, CardText, Jumbotron, Container, Row, Col } from 'reactstrap';
 
 import DropdownSelection from '../Controls/DropdownSelection'
 
-
-
 export default class Homepage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: ['Location', 'Age Range', 'Status', 'Language']
+    };
+  }
+
+  handleDropdownData = (index, value) => {
+    let newData = this.state.data.slice();
+    newData[index] = value;
+    this.setState({data: newData});
+  }
+
+  showHandbook = () => {
+    console.log(this.state);
+  }
 
   render() {
     return (
@@ -23,15 +38,20 @@ export default class Homepage extends Component {
           </div>
 
           <Container>
-            <Row>
-              <Col sm="4">
-                <DropdownSelection title='Location' items={['Washington']} />
+            <Row className='dropdowns'>
+              <Col sm="3">
+                <DropdownSelection title={this.state.data[0]} items={['Washington']} handleDropdownData={this.handleDropdownData} index={0}/>
               </Col>
-              <Col sm="4">
-                <DropdownSelection title='Age Range' items={['0 - 14', '15 - 18', '18 - 21', '21+']} />
+              <Col sm="3">
+                <DropdownSelection title={this.state.data[1]} items={['0 - 14', '15 - 18', '18 - 21', '21+']} handleDropdownData={this.handleDropdownData} index={1} />
               </Col>
-              <Col sm="4">
-                <DropdownSelection title='Status' items={['US Citizen', 'Visa', 'Green Card']} />
+              <Col sm="3">
+                <DropdownSelection title={this.state.data[2]} items={['US Citizen', 'Visa', 'Green Card']}  handleDropdownData={this.handleDropdownData} index={2}/>
+                
+              </Col>
+              <Col sm="3">
+                <DropdownSelection title={this.state.data[3]} items={['English', 'Vietnamese', 'Spanish', 'Arabic', 'Somali', 'Chinese']}  handleDropdownData={this.handleDropdownData} index={3}/>
+                
               </Col>
             </Row>
 
@@ -45,9 +65,20 @@ export default class Homepage extends Component {
               </FormGroup> */}
 
 
-            <Button>Submit</Button>
-
+            <Row>
+              <Col sm="6">
+                <Card >
+                  <Button onClick={this.showHandbook} color='success'>Read the handbook</Button>
+                </Card>
+              </Col>
+              <Col sm="6">
+                <Card >
+                  <Button color='success'>Take the quiz!</Button>
+                </Card>
+              </Col>
+            </Row>
           </Container>
+
 
         </main>
       </div>

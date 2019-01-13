@@ -7,7 +7,7 @@ export default class DropdownSelection extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      dropdownOpen: false
+      dropdownOpen: false,
     };
   }
 
@@ -17,15 +17,19 @@ export default class DropdownSelection extends Component {
     });
   }
 
+  handleDropdownData = (event) => {
+    this.props.handleDropdownData(this.props.index, event.target.innerHTML);
+  }
+
   render() {
     let items = this.props.items.map((item) => {
-      return <DropdownItem key={item}>{item}</DropdownItem>
+      return <DropdownItem onClick={this.handleDropdownData} key={item}>{item}</DropdownItem>
     });
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-        <DropdownToggle caret>
+        <DropdownToggle color='secondary' caret>
           {this.props.title}
-      </DropdownToggle>
+        </DropdownToggle>
         <DropdownMenu>
           {items}
         </DropdownMenu>
