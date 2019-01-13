@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import { Button, Card, CardTitle, CardText, Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Media, Button, Card, CardTitle, CardText, Jumbotron, Container, Row, Col } from 'reactstrap';
 
 import DropdownSelection from '../Controls/DropdownSelection'
 import CheckboxSelections from "../CheckboxSelections";
 import { ROUTES } from "../constants";
 import Handbook from "./Handbook";
+
+const logo = require("../IURAlogo.png")
 
 export default class Homepage extends Component {
   constructor(props) {
@@ -27,20 +29,30 @@ export default class Homepage extends Component {
     this.setState({ view: 'Handbook' })
   }
 
+  goHome = () => {
+    this.setState({view: 'Home'})
+  }
+
   render() {
     let view = (
       <div>
         <Jumbotron className="bg-primary text-white">
           <Container>
-            <h1>The Ever Thankful Dropouts</h1>
-          </Container>
+            <img src={logo} onClick={this.goHome}/>
+
+          </Container>        
+
+
         </Jumbotron>
 
         <main>
           <Container></Container>
           <div className="container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <h3>Learn your civil rights based on your Location, Age Range, and Immigration Status! Check the categories you want to learn about.</h3>
           </div>
+
+          <br></br>
+
 
           <Container>
             <Row className='dropdowns'>
@@ -60,7 +72,7 @@ export default class Homepage extends Component {
               </Col>
             </Row>
 
-
+            <br></br>
 
             <Row>
               <CheckboxSelections title='All' items={['All']} />

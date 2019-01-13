@@ -4,6 +4,8 @@ import Homepage from './Homepage';
 import {Results} from '../Results';
 
 const washingtonRights = require('../resources/washington-rights');
+const logo = require("../IURAlogo.png")
+
 
 export default class Handbook extends Component {
   constructor(props) {
@@ -28,7 +30,7 @@ export default class Handbook extends Component {
       <div>
         <Jumbotron className="bg-primary text-white">
           <Container>
-            <h1>The Ever Thankful Dropouts</h1>
+            <img src={logo} onClick={this.goHome}/>
           </Container>
         </Jumbotron>
 
