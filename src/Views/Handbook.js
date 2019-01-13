@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron, Container, NavLink } from 'reactstrap';
+import Homepage from './Homepage';
+import {Results} from '../Results';
 
 const washingtonRights = require('../resources/washington-rights');
 
@@ -7,17 +9,22 @@ export default class Handbook extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      filters: this.props.filters
+      filters: this.props.filters,
+      view: 'Handbook'
     };
   }
 
+  goHome = () => {
+    this.setState({view: 'Home'})
+  }
+
   componentWillMount() {
-    console.log(this.props);
+    console.log(this.state.filters);
     console.log(washingtonRights);
   }
 
   render() {
-    return (
+    let view = (
       <div>
         <Jumbotron className="bg-primary text-white">
           <Container>
@@ -26,24 +33,16 @@ export default class Handbook extends Component {
         </Jumbotron>
 
         <main>
-          <Container>
-            <h3>Your Civil Rights Information</h3>
-            <li><a href="#testHeader">Test Header</a></li>
-            <li><a href="#">Information Heading here</a></li>
-            <li><a href="#">Information Heading here</a></li>
-            <li><a href="#">Information Heading here</a></li>
-
-            <br></br>
-
-            <h5 id="testHeader">test header</h5>
-            <p>Rights information</p>
-
-            {/* Add to ResultsContent later */}
-
-          </Container>
+          <Results items={washingtonRights} />
 
         </main>
       </div>
+    );
+    if (this.state.view === 'Home') {
+      view = <Homepage />
+    }
+    return (
+      <div>{view}</div>
     );
   }
 }
