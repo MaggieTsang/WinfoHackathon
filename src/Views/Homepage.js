@@ -5,13 +5,15 @@ import { Button, Card, CardTitle, CardText, Jumbotron, Container, Row, Col } fro
 import DropdownSelection from '../Controls/DropdownSelection'
 import CheckboxSelections from "../CheckboxSelections";
 import { ROUTES } from "../constants";
+import Handbook from "./Handbook";
 
 export default class Homepage extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      data: ['Location', 'Age Range', 'Status', 'Language']
+      data: ['Location', 'Age Range', 'Status', 'Language'],
+      view: 'Homepage'
     };
   }
 
@@ -22,11 +24,11 @@ export default class Homepage extends Component {
   }
 
   showHandbook = () => {
-    console.log(this.state);
+    this.setState({ view: 'Handbook' })
   }
 
   render() {
-    return (
+    let view = (
       <div>
         <Jumbotron className="bg-primary text-white">
           <Container>
@@ -80,22 +82,27 @@ export default class Homepage extends Component {
             <Row>
               <Col sm="6">
                 <Card >
-                  <Button onClick={this.showHandbook} color='success'>
-                    <Link className='links' to={{pathname: ROUTES.results, state: this.state.data}}>Read the handbook</Link>
-                  </Button>
+                  <Button onClick={this.showHandbook} color='success'>Read the handbook</Button>
                 </Card>
               </Col>
-                <Col sm="6">
-                  <Card >
-                    <Button color='success'>Take the quiz!</Button>
-                  </Card>
-                </Col>
+              <Col sm="6">
+                <Card >
+                  <Button color='success'>Take the quiz!</Button>
+                </Card>
+              </Col>
             </Row>
           </Container>
 
 
         </main>
       </div>
-        );
-      }
+    );
+    if (this.state.view === 'Handbook') {
+      view = <Handbook filters={this.state.data} />
+    }
+    return (
+      <div>{ view }</div>
+      
+    );
+  }
 }
