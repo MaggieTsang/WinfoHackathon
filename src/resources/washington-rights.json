@@ -1,16 +1,22 @@
 [
   {
     "type": "employment",
+    "immigration status": "all",
+    "age": "all",
     "info": "You have a right to not be discriminated against in the workplace. Employment discrimination is prohibited by federal law, state law and many local laws. Each law is a little different, and some laws may apply to your situation, while others may not. For example, some employers may be subject to different rules based on the employer’s size, religious affiliation or the type of business it runs.",
     "rights": [
       {
         "type": "religious",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "Title VII of the Civil Rights Act of 1964 and the Washington Law Against Discrimination prohibit discrimination and harassment based on your religious beliefs. Harassment can include offensive comments about your religious beliefs or practices,including religious attire, which create a negative environment where it is difficult to do your job."
         ]
       },
       {
         "type": "workplace",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "Under Title VII of the Civil Rights Act and the Washington Law Against Discrimination, employers may not discriminate on the basis of race, color, or national origin.", 
           "Your employer cannot refuse to hire you, pay you less, cut your hours or otherwise unfavorably alter your working conditions on the basis of your race, color, or national origin.",
@@ -19,6 +25,8 @@
       },
       {
         "type": "sex",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "Under the law, pregnancy is included as a part of gender, which means that your employer may not discriminate against you because you are pregnant or may decide to have a baby.",
           "Your employer cannot make policies that negatively affect the members of one gender unless they can prove that the policy is necessary for the business to operate."
@@ -33,10 +41,14 @@
   },
   {
     "type": "housing",
+    "immigration status": "all",
+    "age": "all",
     "info": "You have a right to be free from discrimination in housing transactions, including renting, leasing, purchasing and obtaining financing for land or housing. Washington law prohibits discrimination by landlords, real estate agents, sellers, mortgage brokers, or other individuals involved in real estate transactions." ,
     "rights": [
       {
         "type": "adversiting",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "Landlords, real estate agents, sellers, mortgage brokers, or other individuals involved in real estate transactions may not discriminate based on race, color, national origin, creed (religion), sex or gender, marital status, sexual orientation, mental or physical disability, use of a trained dog guide, honorably discharged veteran or military status, or families with children status (having a child under 18 in the home).",
           "For example, a sign outside an apartment complex that advertises, “Apartment available, mature professionals only - No children” would be prohibited as discriminating based on families with children status unless the property qualifies as senior housing."
@@ -44,6 +56,8 @@
       },
       {
         "type": "sales",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "When real estate is for sale or rent, everyone should be offered the same terms whether or not they belong to a protected class. This means that the availability, price and other details of a sale or rental should not depend on factors like race, national origin, religion, or sex."
         ]
@@ -56,10 +70,14 @@
   },
   {
     "type": "voting",
+    "immigration status": "citizen",
+    "age": ["18-20", "21+"],
     "info": "Voting is a fundamental right of citizenship. Washington state encourages every eligible person to register to vote and to participate in all elections. Washington is also committed to preventing discrimination and fraud related to voting. The purpose of this chapter is to provide you with information about how to register to vote and how to report fraud and discrimination related to voting. To vote, you must be at least 18 years of age at the time of the next election, be a US citizen, a resident of the state, county, and precinct where you are registering for at least 30 days before the next election, and not be disqualified from voting.",
     "rights": [
       {
         "type": "disabilities",
+        "immigration status": "citizen",
+        "age": ["18-20", "21+"],
         "rights": [
           "Voters with disabilities have the option of voting in person at an Accessible Voting Unit (also called a Disability Access Unit). Accessible Voting Units are wheelchair-accessible, have headphones to allow voters with vision impairments to listen to the ballot, and have touch screens and other tools to allow voters to select candidates."
         ]
@@ -71,17 +89,64 @@
     ]
   },
   {
+    "type": "healthcare",
+    "immigration status": "all",
+    "age": "all",
+    "info": "As a patient, you have the right to be treated and cared for with dignity and respect. Washington State’s general age of majority for health care is 18.",
+    "rights": [
+      {
+        "type": "privacy",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "All patients have the right to order a copy of their medical records",
+          "All patients have the right to have confidentiality, privacy, security, spiritual care, and not restricted from communication with others."
+        ]
+      }, {
+        "type": "care",
+        "immigration status": "all",
+        "age": ["18-20", "21+"],
+        "rights":[
+          "All patients have the right to be informed and agree to their care.",
+          "All patients have the right to be involved in all aspects of their care including refusing care and treatment, and resolving problems with care decisions."
+        ]
+      }, {
+        "type": "abortion",
+        "immigration status": "all",
+        "age": ["18-20", "21+", "14-17"],
+        "rights": [
+          "A woman has a legal right to decide for herself whether or not to have an abortion until the fetus is viable. Fetal viability is a medical determination that the fetus can survive outside the woman’s body. Today, viability usually occurs at the end of the second trimester of pregnancy.",
+          "State law gives health providers the right to refuse to perform abortions on moral and ethical grounds."
+        ]
+      }, {
+        "type": "minors",
+        "immigration status": "all",
+        "age": ["14-17", "13-"],
+        "rights":[
+          "Washington State's general age of majority for health care is 18, unless the minor is emancipated or married to an adult.",
+          "Certain aspects of a minor's healthcare do not require a parent's consent, mostly decisions regarding mental or sexual health care. For more information, please look at this website: https://depts.washington.edu/hcsats/PDF/guidelines/Minors%20Health%20Care%20Rights%20Washington%20State.pdf"
+        ]
+      }
+    ]
+  },
+  {
     "type": "education",
+    "immigration status": "all",
+    "age": "all",
     "info": "You have a right to be free from discrimination in the classroom, whether you are in elementary school or a college student. This section covers civil rights laws governing primary and secondary education, as well as higher education. State and federal civil rights laws protect all people—including students, parents, and others— from discrimination in Washington public schools. The Office of the Superintendent of Public Instruction (OSPI) is the primary agency responsible for enforcing civil rights laws in Washington’s K-12 education system.",
     "rights": [
       {
         "type": "bullying",
+        "immigration status": "all",
+        "age": "all",
         "rights": [
           "If harassment or bullying is motivated by membership in a protected class, your local school district’s discrimination policies and procedures apply. Check with your district to find out about options for resolving your issue."
         ]
       },
       {
         "type": "pregnancy",
+        "immigration status": "all",
+        "age": ["14-17", "18-20", "21+"],
         "rights":[
           "Schools are prohibited from discriminating on the basis of pregnancy, parenting, and all related conditions, including abortion. This means that schools must give all students who are, might be, or have been pregnant the same access to school programs and educational opportunities as other students.",
           "You cannot be required to drop a class or change your education plans because of your pregnancy."
@@ -91,6 +156,98 @@
     "solutions":[
       "Contact the school district’s Civil Rights Compliance Coordinator. This is the district employee who is responsible for ensuring that your school district complies with nondiscrimination laws and regulations.",
       "File a complaint with the school district. You may file a discrimination complaint with the school district at any time. This process starts with a written and signed complaint letter to the school district. Once the district receives a complaint, they must investigate and respond to you within 30 calendar days."
+    ]
+  },
+  {
+    "type": "LGBT",
+    "immigration status": "all",
+    "age": "all",
+    "info": "It is illegal in Washington state to discriminate based on sexual orientation or gender identity.",
+    "rights":[
+      {
+        "type": "employment",
+        "immigration status": "all",
+      "age": "all",
+        "rights": [
+          "Sexual orientation and gender identity discrimination prohibited in public and private employment.",
+          "Washington House Bill 2661 bans employment, insurance and housing discrimination against LGBT individuals."
+        ]
+      }, {
+        "type": "education",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "Washington House Bill 2661 bans employment, insurance and housing discrimination against LGBT individuals."
+        ]
+      }, {
+        "type": "insurance",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "Washington House Bill 2661 bans employment, insurance and housing discrimination against LGBT individuals."
+        ]
+      }, {
+        "type": "hate crimes",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "Any act of violence or intimidation motivated by sexual orientation or gender identity is a criminal offense in the State of Washington."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "immigration",
+    "immigration status": ["permanent resident", "temporary visa", "tourist", "undocumented"],
+    "age": "all",
+    "info": "When in doubt, you have the right to remain silent, and you do not have to answer any questions about your citizenship or your immigration status unless you are at an airport or a border control station.",
+    "rights":[
+      {
+        "type": "travel",
+        "immigration status": ["permanent resident", "temporary visa", "tourist", "undocumented"],
+        "age": "all",
+        "rights":[
+          "Customs officers can stop you at the border or ports of entry and search your belongings, even without any suspicion of wrongdoing. However, they cannot target you simply because of your religion, race, ethnicity, national origin, gender, or political beliefs."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "criminal justice",
+    "immigration status": "all",
+    "age": "all",
+    "info": "As a resident of the United States, you have rights protecting your privacy from the police when there is no probable cause or reasonable suspicion.",
+    "rights":[
+      {
+        "type": "search",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "Probable cause — or reasonable cause — is defined by the Washington Courts as “having more evidence for than against; a reasonable belief that a crime has or is being committed; the basis for all lawful searches, seizures, and arrests.”",
+          "A search warrant can be obtained from a judge as long as probable cause for a crime is proven by a prosecutor.",
+          "A police officer can search your car with probable cause without a search warrant.",
+          "A warrantless search may also be executed under “exigent circumstances,” whereby an officer has probable cause and an urgent need to take action before a warrant can be issued.",
+          "In most other scenarios, a search warrant with the signature of a judge is required to search your property.",
+          "An officer may also lawfully conduct what’s known as a “stop and frisk,” per the case of Terry v. Ohio. In order to conduct one of these stops, an officer must have reasonable suspicion but not probable cause."
+        ]
+      }
+    ]
+  }, {
+    "type": "free speech",
+    "immigration status": "all",
+    "age": "all",
+    "info": "Under the United States Constitution's First Amendment, except words of incitement, falsehoods, obscenity, child pornography, 'fighting words', and speech owned by others.",
+    "rights": [
+      {
+        "type": "protests",
+        "immigration status": "all",
+        "age": "all",
+        "rights":[
+          "The government may impose reasonable restrictions on the time, place and manner of speech, but these restrictions cannot be based on the content of the speech.",
+          "Yes, but many cities require permits if a march will block traffic; the rules for obtaining permits and enforcement of permit requirements vary by jurisdiction. If you march without a permit and block traffic while refusing an order from police to get out of the street, you could be arrested or detained.",
+          "The government may impose a nominal permit fee to cover administrative expenses of processing a permit application and/or expenses related to the event."
+        ]
+      }
     ]
   }
 ]
