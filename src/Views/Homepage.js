@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Card, CardTitle, CardText, Jumbotron, Container, Row, Col } from 'reactstrap';
 
 import DropdownSelection from '../Controls/DropdownSelection'
+import CheckboxSelections from "../CheckboxSelections";
 
 export default class Homepage extends Component {
   constructor(props) {
@@ -57,12 +58,21 @@ export default class Homepage extends Component {
 
 
 
-            {/* <FormGroup check>
-                <Label check>
-                  <Input type="checkbox" />{' '}
-                  Check me out
-          </Label>
-              </FormGroup> */}
+            <Row>
+                <CheckboxSelections title='All' items={['All']} />
+                <CheckboxSelections title='Healthcare' items={['Healthcare']} />
+                <CheckboxSelections title='Education' items={['Education']} />
+                <CheckboxSelections title='Criminal Justice' items={['Criminal Justice']} />
+                <CheckboxSelections title='Racial Justice' items={['Racial Justice']} />
+                <CheckboxSelections title='Free Speech' items={['Free Speech']} />
+                <CheckboxSelections title='Gender Equity' items={['Gender Equity']} />
+                <CheckboxSelections title='Voting Rights' items={['Voting']} />
+                <CheckboxSelections title='Housing Rights' items={['Housing']} />
+                <CheckboxSelections title='Freedom of Religion' items={['Freedom of Religion']} />
+                <CheckboxSelections title='LBGT Rights' items={['LBGT Rights']} />
+                <CheckboxSelections title='Business Rights' items={['Business Rights']} />
+                <CheckboxSelections title='Immigration Rights' items={['Immigration Rights']} />
+            </Row>
 
 
             <Row>
