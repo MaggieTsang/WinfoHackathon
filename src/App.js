@@ -5,7 +5,7 @@ import {ROUTES} from "./constants";
 //import logo from './logo.svg';
 import './App.css';
 import Homepage from './Views/Homepage';
-import SelectionResults from './Views/SelectionResults';
+import Handbook from './Views/Handbook';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <Switch>
             <Route exact path={ROUTES.homepage} component={Homepage}/>
-            <Route exact path={ROUTES.results} component={SelectionResults}/>
+            <Route exact path={ROUTES.results} component={Handbook}/>
             <Redirect to={ROUTES.homepage}/>
 
             {/* <Redirect to={ROUTES.homepage}/> */}

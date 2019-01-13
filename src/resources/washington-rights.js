@@ -1,4 +1,4 @@
-[
+const washingtonRights = [
   {
     "type": "employment",
     "immigration status": "all",
@@ -357,3 +357,5 @@
       ]
   }
 ]
+
+module.exports = washingtonRights;

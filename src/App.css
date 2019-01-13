@@ -1,3 +1,7 @@
 .dropdowns {
   margin-bottom: 10px;
 }
+
+.links, .links:hover {
+  color: white;
+}
