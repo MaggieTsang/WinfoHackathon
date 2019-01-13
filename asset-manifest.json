@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.9c777789.chunk.css",
-  "main.js": "/static/js/main.774b5a59.chunk.js",
-  "main.js.map": "/static/js/main.774b5a59.chunk.js.map",
-  "static/css/1.9d959535.chunk.css": "/static/css/1.9d959535.chunk.css",
-  "static/js/1.34cc4cb8.chunk.js": "/static/js/1.34cc4cb8.chunk.js",
-  "static/js/1.34cc4cb8.chunk.js.map": "/static/js/1.34cc4cb8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.9d959535.chunk.css.map": "/static/css/1.9d959535.chunk.css.map",
-  "static/css/main.9c777789.chunk.css.map": "/static/css/main.9c777789.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.5d269fb9174df39200ae91ab4cb43f9b.js": "/precache-manifest.5d269fb9174df39200ae91ab4cb43f9b.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/winfohackathon/static/css/main.9c777789.chunk.css",
+  "main.js": "/winfohackathon/static/js/main.1cadf5ad.chunk.js",
+  "main.js.map": "/winfohackathon/static/js/main.1cadf5ad.chunk.js.map",
+  "static/css/1.9d959535.chunk.css": "/winfohackathon/static/css/1.9d959535.chunk.css",
+  "static/js/1.34cc4cb8.chunk.js": "/winfohackathon/static/js/1.34cc4cb8.chunk.js",
+  "static/js/1.34cc4cb8.chunk.js.map": "/winfohackathon/static/js/1.34cc4cb8.chunk.js.map",
+  "runtime~main.js": "/winfohackathon/static/js/runtime~main.50648625.js",
+  "runtime~main.js.map": "/winfohackathon/static/js/runtime~main.50648625.js.map",
+  "static/css/1.9d959535.chunk.css.map": "/winfohackathon/static/css/1.9d959535.chunk.css.map",
+  "static/css/main.9c777789.chunk.css.map": "/winfohackathon/static/css/main.9c777789.chunk.css.map",
+  "index.html": "/winfohackathon/index.html",
+  "precache-manifest.8eb96237b07800f1051d549638972583.js": "/winfohackathon/precache-manifest.8eb96237b07800f1051d549638972583.js",
+  "service-worker.js": "/winfohackathon/service-worker.js"
 }
