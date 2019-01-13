@@ -31,6 +31,34 @@
           "Under the law, pregnancy is included as a part of gender, which means that your employer may not discriminate against you because you are pregnant or may decide to have a baby.",
           "Your employer cannot make policies that negatively affect the members of one gender unless they can prove that the policy is necessary for the business to operate."
         ]
+      },
+      {
+          "type": "Workplace Rights",
+          "immigration status": "all",
+          "age": "all",
+          "rights": [
+              "The Current 2019 Washington Minimum Wage Is $12.00",
+              "Washington's minimum wage applies to workers in both agriculture and non-agricultural jobs, although 14- and 15-year-olds may be paid 85% of the minimum wage ($10.20). In January 2020 the minimum wage will be $13.50.",
+              "Workers with a disability: In accordance with regulation WAC 296-128-050 (app.leg.wa.gov) for workers 18 years of age or over or WAC 296-125-043 (app.leg.wa.gov) for workers under age 18, the employer requests a certificate to employ an individual whose earning capacity is impaired by reason of age, mental disability, or physical disability.",
+              "Student worker: In accordance with regulation WAC 296-128-275 (app.leg.wa.gov), for resident students receiving instruction in a bona fide educational institution, and who are employed on a part-time basis by the institution for the purpose of enabling the students to defray part of their school expenses, the employer requests a certificate to pay the worker at a subminimum wage rate. The certificate will not allow less than 75% of current state minimum wage.",
+              "Initiative 1433: Requires employers to provide paid sick leave to most employees beginning January 1, 2018. Increases the minimum wage over the next several years. Ensuring tips and service charges are given to the appropriate staff and, Protects employees from retaliation when exercising their rights under the Minimum Wage Requirements and Labor Standards Act.",
+              "Businesses may allow workers to take several mini breaks in each 4 hours of working time. If these mini breaks total 10 minutes this substitutes for a scheduled rest break.",
+              "Jobs that don't require overtime pay: Workers employed on farms or ranches, Seasonal employees at agricultural fairs, Newspaper vendors or carriers., Casual (occasional) labor in or about private residences, Forest protection and fire prevention activities, Seaman, Youth camps with child care responsibilities, Public elective or appointive offices",
+              "Under Title VII of the Civil Rights Act and the Washington Law Against Discrimination, employers may not discriminate on the basis of race, color, or national origin.",
+              "Your employer cannot refuse to hire you, pay you less, cut your hours or otherwise unfavorably alter your working conditions on the basis of your race, color, or national origin.",
+              "Your employer also cannot establish policies that have a disproportionately negative effect on workers of a particular race, color, or national origin unless the employer can prove that the policy is necessary for the business to operate."
+          ]
+      },
+      {
+          "type": "Patent Law",
+          "immigration status": "",
+          "age": "all",
+          "rights": [
+              "The USPTO administers the patent laws as they relate to the granting of patents for inventions, and performs other duties relating to patents",
+              "Patents are grants of property to an inventor. In the United States, this means that the US Patent & Trademark Office (USPTO) legally prevents people who are not the inventor from making, using, offering for sale, or selling a product in the United States. New patents are effective for 20 years. To extend the life of the patent, the inventor must pay maintenance fees to the USPTO.",
+              "Constitution - Article I, Section 8: Congress shall have power . . . to promote the progress of science and useful arts, by securing for limited times to authors and inventors the exclusive right to their respective writings and discoveries.",
+              "Subject to the provisions of this title [35 USCS Sects. 1 et seq.], patents shall have the attributes of personal property."
+          ]
       }
     ],
     "solutions": [
@@ -151,6 +179,27 @@
           "Schools are prohibited from discriminating on the basis of pregnancy, parenting, and all related conditions, including abortion. This means that schools must give all students who are, might be, or have been pregnant the same access to school programs and educational opportunities as other students.",
           "You cannot be required to drop a class or change your education plans because of your pregnancy."
         ]
+      },
+      {
+          "type": "School Activities",
+          "immigration status": "all",
+          "age": "all",
+          "rights": [
+              "The Equal Access Act (“Act”) provides that “[i]t shall be unlawful for any public secondary school which receives Federal financial assistance and which has a limited open forum to deny equal access or a fair opportunity to, or discriminate against, any students who wish to conduct a meeting within that limited open forum on the basis of the religious, political, philosophical, or other content of the speech at such meetings.”",
+              "Schools are not allowed to discriminate in interscholastic, intercollegiate, club, or intramural sports"
+          ]
+      },
+      {
+          "type": "Sex Education and Pregnancy",
+          "immigration status": "all",
+          "age": [ "13-", "14-17", "18-20", "21+" ],
+          "rights": [
+              "All people in our state – including young people – have a right to privacy for personal reproductive decisions",
+              "In Washington state, even as a minor, you are the one with the right to consent to family planning (e.g., birth control) or abortion",
+              "You are also the one who can authorize the release of information relating to birth control or abortion, not your parent or guardian. That at means the school cannot release information about birth control or abortion to your parent or guardian or others without your written authorization.",
+              "Schools are prohibited from discriminating on the basis of pregnancy, parenting, and all related conditions, including abortion. This means that schools must give all students who are, might be, or have been pregnant the same access to school programs and educational opportunities as other students.",
+              "You cannot be required to drop a class or change your education plans because of your pregnancy."
+          ]
       }
     ],
     "solutions":[
@@ -249,5 +298,62 @@
         ]
       }
     ]
+  },
+  {
+      "type": "Religion",
+      "info": "Title VII of the Civil Rights Act of 1964 and the Washington Law Against Discrimination prohibit discrimination and harassment based on your religious beliefs. Harassment can include offensive comments about your religious beliefs or practices,including religious attire, which create a negative environment where it is difficult to do your job.",
+      "immigration status": "all",
+      "age": "all",
+      "rights": [
+          {
+              "type": "Workplace",
+              "immigration status": "all",
+              "age": "all",
+              "rights": [
+                  "Under state laws that make it illegal to discriminate on the basis of religion, however, the minimum number of employees needed to bring a claim varies by state.",
+                  "Title VII: If an article of clothing that you wear, such as a turban, hijab, or yarmulke, is required by your religion, you should ask your employer for a religious accommodation to wear it at work. Your employer has a legal obligation to grant your request if it does not impose a burden, or an undue hardship",
+                  "If the organization is a religious corporation, association, educational institution or society, then it is allowed under Title VII to hire only individuals of a particular religion to perform work connected with the carrying on by such corporation, association, educational institution or society of its activities.",
+                  "Just like sexual harassment, religious harassment may occur in the form of quid pro quo harassment or a hostile work environment",
+                  "Quid pro quo: This type of harassment occurs when a harasser seeks to exchange a tangible employment benefit for an individual's compliance with the harasser's religious demands, and when the demand is not complied with the harasser engages in an adverse employment action such as demotion or job loss."
+              ]
+
+          },
+          {
+              "type": "School",
+              "immigration status": "all",
+              "age": "all",
+              "rights": [
+                  "Your right to the free exercise of religion is protected both inside of school and out. When you are in school, you are free to practice your religion individually so long as you do not disrupt educational activities or interfere with the rights of others.",
+                  "Individual students are free to: pray, read from religious text, wear religious symbols, discuss their faith, and invite others to join their religious group",
+                  "You canform a religious club and are free to meet at school during noninstructional time if the school allows other non-curriculum-relatedstudent clubs to meet on campus",
+                  "You have the right to distribute religious literature on public school campuses",
+                  "The school can impose rules about when, where and how you can distribute your literature. Any restrictions the school creates must be reasonable and they must apply equally to all non-school student literature. ",
+                  " The government cannot pass laws that are motivated by a religious purpose, orlaws that promote religion",
+                  "The general rule for schools is that they may not sponsor, facilitate, promote or participate in religious activity or religious beliefs. ",
+                  "Schools can celebrate holidays by putting up decorations and displays, but they must be careful not to promote any one religion in particular",
+                  " schools might include plays about religion in a drama class, but putting on a religious play would probably not be permitted"
+              ]
+          }
+      ]
+  },
+  {
+      "type": "Gender Equity",
+      "info": "",
+      "immigration status": "all",
+      "age": "all",
+      "rights": [
+          {
+              "type": "Sports",
+              "immigration status": "all",
+              "age": "all",
+              "rights": [
+                  "Title IX:No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subject to discrimination under any educational program or activity receiving federal financial assistance.",
+                  "Schools are not allowed to discriminate in interscholastic, intercollegiate, club, or intramural sports",
+                  "Title IX does not require equal participation (50 percent female/50 percent male) in athletics, rather it requires that athletic programs “accommodate the interests and abilities of members of both sexes.”",
+                  "Female and male athletic programs must receive equitable funding even if one of the teams raises money through a booster club; Booster funds cannot be used as an excuse for inequitable funding",
+                  "Title IX requires that female and male sports be treated equally with regard to equipment and supplies the quality, quantity, suitability, availability, andmaintenance of the equipment and supplies must be equal"
+              ]
+          } 
+      ]
   }
 ]
